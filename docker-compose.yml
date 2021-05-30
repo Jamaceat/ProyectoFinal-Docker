@@ -16,6 +16,8 @@ services:
         container_name: compose_db
         restart: always
         build: ./DB
+        volumes:
+             - ./DB/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
 
     dash:
         build: ./Dash
