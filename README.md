@@ -9,12 +9,13 @@ Proyecto Final EC2 disponiendo Docker para realizar visualización de datos aloj
 
 ## Pasos 
 
-1. ```docker-compose up -d```
+1. Ingresar vía terminal a la carpeta del proyecto.
+2. Ejecutar ```docker-compose up -d```
 
-2. Entrar a localhost:8888 para ingresar al Notebook de Jupyter
+3. Entrar a localhost:8888 para ingresar al Notebook de Jupyter
      - Contraseña: 1234
      
-3. Entrar a localhost:8050 para visualizar datos en Dash     
+4. Entrar a localhost:8050 para visualizar datos en Dash     
 
 
 
