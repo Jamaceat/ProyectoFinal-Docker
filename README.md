@@ -5,7 +5,7 @@
   - Dash
   - PostgreSQL
 
-Proyecto Final EC2 disponiendo Docker para realizar visualización de datos alojados en un contenedor de base de datos desde contenedores de Jupyter Notebook y Dash
+Proyecto Final EC2 disponiendo Docker para realizar visualización de datos alojados en un contenedor de base de datos desde contenedores de Jupyter Notebook y Dash.
 
 ## Pasos
 1. Descargar proyecto vía git clone o descargando zip.
