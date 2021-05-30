@@ -23,3 +23,8 @@ Proyecto Final EC2 disponiendo Docker para realizar visualización de datos aloj
     - 8888 para notebook de Jupyter
     - 8050 para Dash
   
+## Integrantes
+- Sergio Roa Pereira ( saroa@uninorte.edu.co )
+- Luisa Escobar Linero ( lineroml@uninorte.edu.co )
+- Johan Mendez Macea ( jamacea@uninorte.edu.co )
+- Ricardo Barrios Medina ( rjbarrios@uninorte.edu.co )
