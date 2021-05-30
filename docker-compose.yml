@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+    app:
+        container_name: compose_app
+        build: ./Jupyter
+        restart: always
+        depends_on:
+            - db
+        links:
+            - "db"
+        volumes:
+            - ./Jupyter/datos:/jupyter/datos
+        ports: 
+            - "8888:8888"
+    db:
+        container_name: compose_db
+        restart: always
+        build: ./DB
+
+    dash:
+        build: ./Dash
+        container_name: compose_dash
+        command: python dashapp.py
+        restart: always
+        volumes:
+            - ./Dash/code:/code
+        ports:
+            - '8050:8050'
+        depends_on: 
+            - db
+        links:
+            - "db"
