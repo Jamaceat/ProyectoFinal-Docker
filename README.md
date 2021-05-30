@@ -20,7 +20,8 @@ Proyecto Final EC2 disponiendo Docker para realizar visualización de datos aloj
 2. Ejecutar ```cd ProyectoFinal-Docker```
 3. Ejecutar ```docker-compose up -d```
 4. Hacer click a "Open port" e ingresar:
-    - 8888 para notebook de Jupyter contraseña:1234
+    - 8888 para notebook de Jupyter 
+      - Contraseña : 1234
     - 8050 para Dash
   
 ## Integrantes
